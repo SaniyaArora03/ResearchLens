@@ -1,2 +1,29 @@
-certifi==2026.4.22
-wheel==0.46.3
+
+# LangChain and RAG
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+
+# PDF processing
+PyMuPDF
+
+# Embeddings and machine learning
+sentence-transformers==3.4.1
+transformers==4.48.3
+tokenizers==0.21.1
+torch==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+
+# Vector store
+faiss-cpu
+
+# API
+fastapi
+uvicorn[standard]
+
+# Environment variables
+python-dotenv
